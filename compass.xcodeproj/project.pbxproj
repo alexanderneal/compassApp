@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		108D9C242B88A9590089063A /* compassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D9C232B88A9590089063A /* compassApp.swift */; };
+		108D9C262B88A9590089063A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D9C252B88A9590089063A /* ContentView.swift */; };
+		108D9C282B88A95A0089063A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108D9C272B88A95A0089063A /* Assets.xcassets */; };
+		108D9C2B2B88A95A0089063A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108D9C2A2B88A95A0089063A /* Preview Assets.xcassets */; };
+		108D9C352B88A95A0089063A /* compassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D9C342B88A95A0089063A /* compassTests.swift */; };
+		108D9C3F2B88A95A0089063A /* compassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D9C3E2B88A95A0089063A /* compassUITests.swift */; };
+		108D9C412B88A95A0089063A /* compassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D9C402B88A95A0089063A /* compassUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		108D9C312B88A95A0089063A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 108D9C182B88A9590089063A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108D9C1F2B88A9590089063A;
+			remoteInfo = compass;
+		};
+		108D9C3B2B88A95A0089063A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 108D9C182B88A9590089063A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108D9C1F2B88A9590089063A;
+			remoteInfo = compass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		108D9C202B88A9590089063A /* compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = compass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		108D9C232B88A9590089063A /* compassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compassApp.swift; sourceTree = "<group>"; };
+		108D9C252B88A9590089063A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		108D9C272B88A95A0089063A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		108D9C2A2B88A95A0089063A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		108D9C302B88A95A0089063A /* compassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = compassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		108D9C342B88A95A0089063A /* compassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compassTests.swift; sourceTree = "<group>"; };
+		108D9C3A2B88A95A0089063A /* compassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = compassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		108D9C3E2B88A95A0089063A /* compassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compassUITests.swift; sourceTree = "<group>"; };
+		108D9C402B88A95A0089063A /* compassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		108D9C1D2B88A9590089063A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108D9C2D2B88A95A0089063A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108D9C372B88A95A0089063A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		108D9C172B88A9590089063A = {
+			isa = PBXGroup;
+			children = (
+				108D9C222B88A9590089063A /* compass */,
+				108D9C332B88A95A0089063A /* compassTests */,
+				108D9C3D2B88A95A0089063A /* compassUITests */,
+				108D9C212B88A9590089063A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		108D9C212B88A9590089063A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				108D9C202B88A9590089063A /* compass.app */,
+				108D9C302B88A95A0089063A /* compassTests.xctest */,
+				108D9C3A2B88A95A0089063A /* compassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		108D9C222B88A9590089063A /* compass */ = {
+			isa = PBXGroup;
+			children = (
+				108D9C232B88A9590089063A /* compassApp.swift */,
+				108D9C252B88A9590089063A /* ContentView.swift */,
+				108D9C272B88A95A0089063A /* Assets.xcassets */,
+				108D9C292B88A95A0089063A /* Preview Content */,
+			);
+			path = compass;
+			sourceTree = "<group>";
+		};
+		108D9C292B88A95A0089063A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				108D9C2A2B88A95A0089063A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		108D9C332B88A95A0089063A /* compassTests */ = {
+			isa = PBXGroup;
+			children = (
+				108D9C342B88A95A0089063A /* compassTests.swift */,
+			);
+			path = compassTests;
+			sourceTree = "<group>";
+		};
+		108D9C3D2B88A95A0089063A /* compassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				108D9C3E2B88A95A0089063A /* compassUITests.swift */,
+				108D9C402B88A95A0089063A /* compassUITestsLaunchTests.swift */,
+			);
+			path = compassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		108D9C1F2B88A9590089063A /* compass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108D9C442B88A95A0089063A /* Build configuration list for PBXNativeTarget "compass" */;
+			buildPhases = (
+				108D9C1C2B88A9590089063A /* Sources */,
+				108D9C1D2B88A9590089063A /* Frameworks */,
+				108D9C1E2B88A9590089063A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = compass;
+			productName = compass;
+			productReference = 108D9C202B88A9590089063A /* compass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		108D9C2F2B88A95A0089063A /* compassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108D9C472B88A95A0089063A /* Build configuration list for PBXNativeTarget "compassTests" */;
+			buildPhases = (
+				108D9C2C2B88A95A0089063A /* Sources */,
+				108D9C2D2B88A95A0089063A /* Frameworks */,
+				108D9C2E2B88A95A0089063A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				108D9C322B88A95A0089063A /* PBXTargetDependency */,
+			);
+			name = compassTests;
+			productName = compassTests;
+			productReference = 108D9C302B88A95A0089063A /* compassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		108D9C392B88A95A0089063A /* compassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108D9C4A2B88A95A0089063A /* Build configuration list for PBXNativeTarget "compassUITests" */;
+			buildPhases = (
+				108D9C362B88A95A0089063A /* Sources */,
+				108D9C372B88A95A0089063A /* Frameworks */,
+				108D9C382B88A95A0089063A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				108D9C3C2B88A95A0089063A /* PBXTargetDependency */,
+			);
+			name = compassUITests;
+			productName = compassUITests;
+			productReference = 108D9C3A2B88A95A0089063A /* compassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		108D9C182B88A9590089063A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					108D9C1F2B88A9590089063A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					108D9C2F2B88A95A0089063A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 108D9C1F2B88A9590089063A;
+					};
+					108D9C392B88A95A0089063A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 108D9C1F2B88A9590089063A;
+					};
+				};
+			};
+			buildConfigurationList = 108D9C1B2B88A9590089063A /* Build configuration list for PBXProject "compass" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 108D9C172B88A9590089063A;
+			productRefGroup = 108D9C212B88A9590089063A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				108D9C1F2B88A9590089063A /* compass */,
+				108D9C2F2B88A95A0089063A /* compassTests */,
+				108D9C392B88A95A0089063A /* compassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		108D9C1E2B88A9590089063A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108D9C2B2B88A95A0089063A /* Preview Assets.xcassets in Resources */,
+				108D9C282B88A95A0089063A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108D9C2E2B88A95A0089063A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108D9C382B88A95A0089063A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		108D9C1C2B88A9590089063A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108D9C262B88A9590089063A /* ContentView.swift in Sources */,
+				108D9C242B88A9590089063A /* compassApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108D9C2C2B88A95A0089063A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108D9C352B88A95A0089063A /* compassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108D9C362B88A95A0089063A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108D9C3F2B88A95A0089063A /* compassUITests.swift in Sources */,
+				108D9C412B88A95A0089063A /* compassUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		108D9C322B88A95A0089063A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 108D9C1F2B88A9590089063A /* compass */;
+			targetProxy = 108D9C312B88A95A0089063A /* PBXContainerItemProxy */;
+		};
+		108D9C3C2B88A95A0089063A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 108D9C1F2B88A9590089063A /* compass */;
+			targetProxy = 108D9C3B2B88A95A0089063A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		108D9C422B88A95A0089063A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		108D9C432B88A95A0089063A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		108D9C452B88A95A0089063A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"compass/Preview Content\"";
+				DEVELOPMENT_TEAM = AX59226D8Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test1-ios-app.compass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		108D9C462B88A95A0089063A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"compass/Preview Content\"";
+				DEVELOPMENT_TEAM = AX59226D8Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test1-ios-app.compass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		108D9C482B88A95A0089063A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX59226D8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test1-ios-app.compassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/compass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/compass";
+			};
+			name = Debug;
+		};
+		108D9C492B88A95A0089063A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX59226D8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test1-ios-app.compassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/compass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/compass";
+			};
+			name = Release;
+		};
+		108D9C4B2B88A95A0089063A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX59226D8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test1-ios-app.compassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = compass;
+			};
+			name = Debug;
+		};
+		108D9C4C2B88A95A0089063A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX59226D8Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test1-ios-app.compassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = compass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		108D9C1B2B88A9590089063A /* Build configuration list for PBXProject "compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108D9C422B88A95A0089063A /* Debug */,
+				108D9C432B88A95A0089063A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108D9C442B88A95A0089063A /* Build configuration list for PBXNativeTarget "compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108D9C452B88A95A0089063A /* Debug */,
+				108D9C462B88A95A0089063A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108D9C472B88A95A0089063A /* Build configuration list for PBXNativeTarget "compassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108D9C482B88A95A0089063A /* Debug */,
+				108D9C492B88A95A0089063A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108D9C4A2B88A95A0089063A /* Build configuration list for PBXNativeTarget "compassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108D9C4B2B88A95A0089063A /* Debug */,
+				108D9C4C2B88A95A0089063A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 108D9C182B88A9590089063A /* Project object */;
+}
