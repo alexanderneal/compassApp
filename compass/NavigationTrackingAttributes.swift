@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import ActivityKit
+
+struct NavigationTrackingAttributes: ActivityAttributes{
+    public typealias NavigationTrackingStatus = ContentState
+    
+    public struct ContentState: Codable, Hashable{
+        var startNav: Date
+    }
+}

@@ -15,3 +15,8 @@ struct compassApp: App {
         }
     }
 }
+
+
+#Preview {
+    ContentView()
+}
