@@ -14,7 +14,13 @@ struct Tutorial_Widget: Widget {
                     Text("Main")
                 }
             } compactLeading: {
-                Text("CL")
+                Image(systemName: "location.north.fill")
+                            .resizable() // Make the image resizable
+                            .aspectRatio(contentMode: .fit) // Keep the aspect ratio
+                            .frame(width: 20, height: 20)
+                            .foregroundColor(.red)
+                
+                //Text("CL")
             } compactTrailing: {
                 Text("NW").foregroundColor(.red)
             } minimal: {
