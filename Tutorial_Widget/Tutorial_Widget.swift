@@ -10,21 +10,31 @@ struct Tutorial_Widget: Widget {
             NavigationTrackingWidgetView(context: context)
         } dynamicIsland: { context in
             DynamicIsland {
-                DynamicIslandExpandedRegion(.center){
-                    Text("Main")
+                DynamicIslandExpandedRegion(.bottom){
+                    Text("Keep on Path")
+                }
+                DynamicIslandExpandedRegion(.leading){
+                    Image(systemName: "location.north.fill")
+                                .resizable() // Make the image resizable
+                                .aspectRatio(contentMode: .fit) // Keep the aspect ratio
+                                .frame(width: 17, height: 17)
+                                .foregroundColor(.red)
+                }
+                DynamicIslandExpandedRegion(.trailing){
+                    Text("NW")
                 }
             } compactLeading: {
                 Image(systemName: "location.north.fill")
                             .resizable() // Make the image resizable
                             .aspectRatio(contentMode: .fit) // Keep the aspect ratio
-                            .frame(width: 20, height: 20)
+                            .frame(width: 17, height: 17)
                             .foregroundColor(.red)
                 
-                //Text("CL")
+                
             } compactTrailing: {
                 Text("NW").foregroundColor(.red)
             } minimal: {
-                Text("M")
+                Text("NW")
             }
 
         }
