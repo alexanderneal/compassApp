@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1043E7EB2BB98485009BA866 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1043E7EA2BB98485009BA866 /* CompassView.swift */; };
+		1043E7ED2BB984C2009BA866 /* CompassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1043E7EC2BB984C2009BA866 /* CompassViewModel.swift */; };
 		108D9C242B88A9590089063A /* compassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D9C232B88A9590089063A /* compassApp.swift */; };
 		108D9C282B88A95A0089063A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108D9C272B88A95A0089063A /* Assets.xcassets */; };
 		108D9C352B88A95A0089063A /* compassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D9C342B88A95A0089063A /* compassTests.swift */; };
@@ -62,6 +64,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1043E7EA2BB98485009BA866 /* CompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+		1043E7EC2BB984C2009BA866 /* CompassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassViewModel.swift; sourceTree = "<group>"; };
 		108D9C202B88A9590089063A /* compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = compass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		108D9C232B88A9590089063A /* compassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compassApp.swift; sourceTree = "<group>"; };
 		108D9C272B88A95A0089063A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 				108D9C232B88A9590089063A /* compassApp.swift */,
 				108D9C272B88A95A0089063A /* Assets.xcassets */,
 				108D9C292B88A95A0089063A /* Preview Content */,
+				1043E7EA2BB98485009BA866 /* CompassView.swift */,
+				1043E7EC2BB984C2009BA866 /* CompassViewModel.swift */,
 			);
 			path = compass;
 			sourceTree = "<group>";
@@ -357,6 +363,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				108D9C4E2B88AA450089063A /* ContentView.swift in Sources */,
+				1043E7ED2BB984C2009BA866 /* CompassViewModel.swift in Sources */,
+				1043E7EB2BB98485009BA866 /* CompassView.swift in Sources */,
 				108D9C502B89D3170089063A /* NavigationTrackingAttributes.swift in Sources */,
 				108D9C242B88A9590089063A /* compassApp.swift in Sources */,
 			);
