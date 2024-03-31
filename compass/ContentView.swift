@@ -15,13 +15,14 @@ struct ContentView: View {
                     .padding(.top, 20) // Push compass down a bit
 
                 // Only one degree indicator here
-                if compassVM.trueHeading != 0 {
+               /* if compassVM.trueHeading != 0 {
                     Text("\(compassVM.trueHeading, specifier: "%.0f")°")
                         .font(.title)
                         .bold()
                         .padding(.vertical, 30) // Add space around the degree indicator
                 }
-
+                */
+                
                 Button(action: toggleTracking) {
                     Text(isTrackingMeters ? "STOP" : "START")
                         .fontWeight(.light)

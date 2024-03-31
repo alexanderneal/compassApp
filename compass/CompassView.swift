@@ -18,6 +18,8 @@ struct CompassView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 50, height: 50)
                     .foregroundColor(.red)
+                    .rotationEffect(Angle(degrees: -viewModel.trueHeading)) // This line rotates the arrow
+
 
                 // Position the letters around the arrow
                 Text("N")
