@@ -12,7 +12,7 @@ struct CompassView: View {
                     .fill(Color.secondary.opacity(0.2))
                     .frame(width: 250, height: 250)
                 
-                // Arrow should remain static, always pointing upwards in the UI.
+                
                 Image(systemName: "arrow.up.circle.fill")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
