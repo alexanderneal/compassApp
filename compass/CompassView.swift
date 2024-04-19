@@ -19,8 +19,8 @@ struct CompassView: View {
                     .frame(width: 50, height: 50)
                     .foregroundColor(.red)
                     .rotationEffect(Angle(degrees: -viewModel.trueHeading)) // This line rotates the arrow
-
-
+                
+                
                 // Position the letters around the arrow
                 Text("N")
                     .offset(y: -100) // Closer to the edge
@@ -38,9 +38,6 @@ struct CompassView: View {
                     .offset(x: -100) // Closer to the edge
                     .foregroundColor(.primary)
                     .rotationEffect(.degrees(-viewModel.trueHeading))
-                
-                // The labels rotate around the circle
-                .animation(.easeIn, value: viewModel.trueHeading)
             }
             .frame(width: 250, height: 250)
             
@@ -48,6 +45,12 @@ struct CompassView: View {
                 .font(.title)
                 .bold()
                 .padding(.bottom, 60)
-        }
+            /*
+            Text(viewModel.directionString)
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                .bold()
+                .padding(.bottom, 60)
+        */
+             }
     }
 }

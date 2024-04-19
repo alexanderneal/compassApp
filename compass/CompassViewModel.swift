@@ -6,6 +6,8 @@ class CompassViewModel: NSObject, ObservableObject, CLLocationManagerDelegate {
     @Published var directionString: String = "N"
     private var locationManager = CLLocationManager()
     
+    
+    
     override init() {
         super.init()
         self.locationManager.delegate = self
