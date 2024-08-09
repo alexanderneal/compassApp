@@ -1,3 +1,3 @@
 Find your true north with CompassApp
 
-![compass.gif](compass.gif)
+![compassgif.gif](compassgif.gif)
