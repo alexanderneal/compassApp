@@ -105,7 +105,9 @@ It will be required to use Xcode or an IDE, for which SwiftUI and Swift is compa
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+<!-- USAGE -->
+## Usage
+If you ever find yourself lost with no connection, use it to trace back your path. Use the Dynamic Island to follow your path.
 
 <!-- LICENSE -->
 ## License
