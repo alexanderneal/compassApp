@@ -123,7 +123,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Alexander Neal - alexander.nealyague@
 
-Project Link: https://github.com/alexanderneal/Exercises
+Project Link: https://github.com/alexanderneal/compassApp
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
