@@ -42,7 +42,7 @@
   <p align="center">
 Find your true north with CompassApp
     <br />
-    <a href="https://github.com/alexanderneal/compassApp"><strong>Explore the docs »</strong></a>
+    
     <br />
     <br />
     <a href="https://github.com/alexanderneal/compassApp">View Demo</a>
