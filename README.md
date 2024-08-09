@@ -1,10 +1,3 @@
-
-
-![compass.gif](compass.gif)
-
-
-
-
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
 <!--
@@ -41,8 +34,6 @@
 
   <p align="center">
 Find your true north with CompassApp
-    <br />
-    
     <br />
     <br />
     <a href="https://github.com/alexanderneal/compassApp">View Demo</a>
