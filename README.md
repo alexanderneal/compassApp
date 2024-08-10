@@ -96,7 +96,7 @@ It will be required to use Xcode or an IDE, for which SwiftUI and Swift is compa
 
 ### Installation
 
-1. Download Xcode at [https://apps.apple.com/es/app/xcode/id497799835?mt=12](https://example.com)
+1. Download Xcode at https://apps.apple.com/es/app/xcode/id497799835?mt=12 
 2. Clone the repo
    ```sh
    git clone https://github.com/alexanderneal/compassApp
