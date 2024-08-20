@@ -120,10 +120,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
-
-Alexander Neal - alexander.nealyague@
-
-Project Link: https://github.com/alexanderneal/compassApp
+* [![LinkedIn][linkedin-shield]][alexander-linkedin]
+* [![Outlook][outlook-shield]][alexander-outlook]
+* [![Github][github-shield]][alexander-github]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,12 +130,17 @@ Project Link: https://github.com/alexanderneal/compassApp
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
+[alexander-linkedin]: https://www.linkedin.com/in/alexandernealyag%C3%BCe/
+[alexander-outlook]: alexander.nealyague@usp.ceu.es
+[alexander-github]: https://github.com/alexanderneal
+[github-shield]:https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
 [stars-url]: https://github.com/github_username/repo_name/stargazers
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]:https://github.com/alexanderneal/Exercises/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://github.com/alexanderneal
+[linkedin-url]: https://www.linkedin.com/in/alexandernealyag%C3%BCe/ 
+[outlook-shield]: https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white
 [product-screenshot]: images/screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [Swift.org]: https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white
