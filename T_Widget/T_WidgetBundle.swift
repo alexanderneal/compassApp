@@ -9,8 +9,8 @@ import WidgetKit
 import SwiftUI
 
 @main
-struct Tutorial_WidgetBundle: WidgetBundle {
+struct T_WidgetBundle: WidgetBundle {
     var body: some Widget {
-        Tutorial_Widget()
+        T_Widget()
     }
 }

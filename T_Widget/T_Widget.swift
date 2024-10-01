@@ -4,7 +4,7 @@ import ActivityKit
 import WidgetKit
 import SwiftUI
 
-struct Tutorial_Widget: Widget {
+struct T_Widget: Widget {
     var body: some WidgetConfiguration {
         ActivityConfiguration(for: NavigationTrackingAttributes.self) { context in
             NavigationTrackingWidgetView(context: context)
